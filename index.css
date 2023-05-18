@@ -223,3 +223,42 @@ table {
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
     -ms-interpolation-mode: bicubic;
 }
+.button-wrap{
+    position: absolute;
+    display: flex;
+    top: 70px;
+    width: 55%;
+    transform: translate(-50%, -50%);
+    left: 50%
+}
+.sign-in{
+    width: 75px;
+    height: 35px;
+    background-color: rgb(47, 206, 179);
+    border: none;
+    font-size: 16px;
+    margin-right: 35px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+    box-shadow: none;
+}
+.sign-up{
+    width: 75px;
+    height: 35px;
+    background-color: ghostwhite;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+}
+.sign-in:hover{
+    background-color: rgb(49, 182, 160);
+}
+.sign-up:hover{
+    background-color: rgb(211, 210, 210);
+}
