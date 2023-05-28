@@ -215,9 +215,8 @@ table {
     display: block;
 }
 .img-wrap img {
-    width: auto;
     height: auto;
-    max-width: 100%;
+    width: 30%;
     vertical-align: middle;
     border: 0;
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
@@ -236,7 +235,7 @@ table {
     height: 35px;
     background-color: rgb(47, 206, 179);
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     margin-right: 35px;
     cursor: pointer;
     color: white;
@@ -250,7 +249,7 @@ table {
     height: 35px;
     background-color: ghostwhite;
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     font-weight: 600;
     border-radius: 2px;
@@ -261,4 +260,15 @@ table {
 }
 .sign-up:hover{
     background-color: rgb(211, 210, 210);
+}
+
+/* main  */
+.main-wrap{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 50%;
+    width: 1080px;
+    height: 1500px;
+    background-color: blue;
 }
