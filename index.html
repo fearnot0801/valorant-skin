@@ -6,119 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" type="image/x-icon" href="image/valorant logo.png">
+    <script src="https://kit.fontawesome.com/33488b9aec.js" crossorigin="anonymous"></script>
     <title>발로란트 스킨 검색</title>
 </head>
 <body>
     <header>
-        <div class="over_header">
-            <div class="over_header_wrap">
+        <div class="header-wrap">
+            <div class="top-menu">
                 <div class="logo_div">
                     <a href="index.html">
                         <img class="logo" src="image/valorant logo.png">
                         <h1>발로란트 스킨 검색</h1>
                     </a>
                 </div>
-                <div class="menubar">
-                    <ul class="menu">
-                        <li class="menu-item">
-                            <div class="menu-item-nav">
-                                <a href="#">수집품</a>
-                                <img class="down_arrow" src="image/down arrow.png">
-                            </div>
-                            <ul class="drop-menu">
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/stack.png">
-                                    <a href="#">세트</a>
-                                </li>
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/decorate.png">
-                                    <a href="#">총기 장식</a>
-                                </li>
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/spray.png">
-                                    <a href="#">스프레이</a>
-                                </li>
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/card.png">
-                                    <a href="#">플레이어 카드</a>
-                                </li>
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/nametag.png">
-                                    <a href="#">플레이어 칭호</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="menu">
-                        <li class="menu-item">
-                            <div class="menu-item-nav">
-                                <a href="#">게임</a>
-                                <img class="down_arrow" src="image/down arrow.png">
-                            </div>
-                            <ul class="drop-menu">
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/user.png">
-                                    <a href="#">요원</a>
-                                </li>
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/aim.png">
-                                    <a href="#">무기</a>
-                                </li>
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/medal.png">
-                                    <a href="#">배틀패스</a>
-                                </li>
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/dollar.png">
-                                    <a href="#">계약</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="menu">
-                        <li class="menu-item">
-                            <div class="menu-item-nav">
-                                <a href="#">정보</a>
-                                <img class="down_arrow" src="image/down arrow.png">
-                            </div>
-                            <ul class="drop-menu">
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/support.png">
-                                    <a href="#">지원</a>
-                                </li>
-                                <li class="drop-down-item">
-                                    <img class="drop-menu-icon" src="image/report.png">
-                                    <a href="#">신고</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                <div class="button-wrap">
+                    <button type="submit" class="sign-in">로그인</button>
+                    <button type="submit" class="sign-up">회원가입</button>
                 </div>
-                <div class="search_wrap">
-                    <div class="search">
-                        <input type="text" class="searchTerm" placeholder=" &nbsp;검색하세요">
-                        <button type="submit" class="searchButton">
-                            <img class="search_symbol" src="image/search_symbol.png">
+            </div>
+            <div class="search_wrap">
+                <div class="search">
+                    <form class="search-form">
+                        <input type="text" class="searchTerm" placeholder="검색하세요.">
+                        <button type="submit" class="searchBtn">
+                            <i class="fa-solid fa-magnifying-glass"></i>    
                         </button>
-                    </div>
+                    </form>
                 </div>
             </div>
-        </div>
-        <div class="under_header">
-            <div class="button-wrap">
-                <button type="submit" class="sign-in">로그인</button>
-                <button type="submit" class="sign-up">회원가입</button>
-            </div>
-            <div class="img-wrap">
-                <img class="under_header_wallpaper" src="image/wallpaper3.jpg">
+            <div class="menu">
+                <ul class="list">
+                    <!-- 여기는 자바스크립트에서 데이터를 추가 -->
+                </ul>
             </div>
         </div>
     </header>
 
     <main>
-        <!-- <div class="main-wrap"></div> -->
+        <div class="main-wrap">
+        </div>
     </main>
 
     <footer></footer>
+    <script src="./main.js"></script>
 </body>
 </html>
