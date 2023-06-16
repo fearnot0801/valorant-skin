@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Search Test</title>
+    <style>
+      .searchBox {
+        margin: 20px 0;
+      }
+
+      .listBox {
+        max-width: 500px;
+      }
+
+      .listInner {
+        background-color: #dedede;
+        margin: 10px 5px;
+        padding: 4px;
+      }
+
+      .country {
+        font-weight: bold;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="searchBox">
+      <label>수도: <input type="text" id="search" onkeyup="filter()" placeholder="수도를 검색하세요." /></label>
+
+    </div>
+
+    <div class="listBox">
+      <div class="listInner">
+        <span class="country">Australia</span>
+        <span class="city">Canberra</span>
+      </div>
+      <div class="listInner">
+        <span class="country">Argentina</span>
+        <span class="city">Buenos Aires</span>
+      </div>
+      <div class="listInner">
+        <span class="country">Austria</span>
+        <span class="city">Vienna</span>
+      </div>
+    </div>
+
+    <script src="./search.js"></script>
+  </body>
+</html>
